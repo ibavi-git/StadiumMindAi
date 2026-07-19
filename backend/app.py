@@ -1,8 +1,9 @@
 """
-StadiumMind AI — FastAPI Application Entry Point
+StadiumMind AI — FastAPI Application Entry Point (FIXED FOR PRODUCTION)
 =================================================
 Wires together all routers and defines the core AI service endpoints.
 """
+import os
 from fastapi import FastAPI, APIRouter, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
@@ -41,9 +42,13 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
+# ── CORS Configuration (Production-Ready) ───────────────────────────────────
+# In production, environment variables define allowed origins
+ALLOWED_ORIGINS = os.getenv("ALLOWED_ORIGINS", "http://localhost:5173,http://localhost:3000").split(",")
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:3000"],
+    allow_origins=ALLOWED_ORIGINS,  # Dynamically loaded from environment
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
