@@ -6,13 +6,13 @@ import axios from 'axios';
  * AI endpoints use extended timeout (30s) for Gemini reasoning calls.
  */
 const apiClient = axios.create({
-  baseURL: 'http://localhost:8000',
+  baseURL: import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000',
   timeout: 15000,
 });
 
 // Extended timeout client for AI generation endpoints
 const aiClient = axios.create({
-  baseURL: 'http://localhost:8000',
+  baseURL: import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000',
   timeout: 30000,
 });
 
