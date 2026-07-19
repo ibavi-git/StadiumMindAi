@@ -7,6 +7,7 @@ import EmergencyPage from './pages/EmergencyPage'
 
 function App() {
   return (
+    <ToastProvider>
     <AppProvider>
       <BrowserRouter>
         <Routes>
@@ -18,6 +19,7 @@ function App() {
         </Routes>
       </BrowserRouter>
     </AppProvider>
+    </ToastProvider>
   )
 }
 
