@@ -1,0 +1,107 @@
+{
+  "timestamp": "2026-06-15T19:45:00-05:00",
+  "active_incidents": [
+    {
+      "id": "INC-2026-0048",
+      "type": "MEDICAL",
+      "severity": "MODERATE",
+      "zone": "ZONE_SOUTH",
+      "gate": "Gate C",
+      "description": "Fan reported chest pain near Gate C concession stand. Medical team alerted.",
+      "reported_at": "2026-06-15T19:38:00-05:00",
+      "reported_by": "VOL-002",
+      "status": "IN_PROGRESS",
+      "assigned_volunteers": ["VOL-012", "VOL-007"],
+      "estimated_resolution_minutes": 15,
+      "notes": "Patient is conscious. Defibrillator brought to scene. EMS en route.",
+      "ai_recommended_actions": [
+        "Clear 3-meter radius around patient",
+        "Direct crowd away from Gate C to Gate D",
+        "Keep radio channel 1 clear for medical team",
+        "Notify Gate D volunteers to expect overflow"
+      ]
+    },
+    {
+      "id": "INC-2026-0049",
+      "type": "SECURITY",
+      "severity": "LOW",
+      "zone": "ZONE_NORTH",
+      "gate": "Gate A",
+      "description": "Unverified report of ticket fraud attempt. Two individuals using copied QR codes.",
+      "reported_at": "2026-06-15T19:41:00-05:00",
+      "reported_by": "VOL-001",
+      "status": "ACTIVE",
+      "assigned_volunteers": ["VOL-013"],
+      "estimated_resolution_minutes": 20,
+      "notes": "Stadium security and FIFA officials notified. Individuals held at Gate A security office.",
+      "ai_recommended_actions": [
+        "Do not escalate visibly in crowd",
+        "Quietly direct other fans to adjacent turnstiles",
+        "Keep radio communications on Channel 5"
+      ]
+    },
+    {
+      "id": "INC-2026-0050",
+      "type": "CROWD_SURGE",
+      "severity": "HIGH",
+      "zone": "ZONE_SOUTH",
+      "gate": "Gate C",
+      "description": "Crowd density at Gate C approaching unsafe levels. Queue backed up 520 people.",
+      "reported_at": "2026-06-15T19:43:00-05:00",
+      "reported_by": "SYSTEM_AUTO",
+      "status": "ACTIVE",
+      "assigned_volunteers": ["VOL-002", "VOL-003", "VOL-011"],
+      "estimated_resolution_minutes": 10,
+      "notes": "Related to ongoing medical incident – Gate C throughput reduced.",
+      "ai_recommended_actions": [
+        "Immediately redirect fans to Gate D",
+        "Deploy barrier management at Gate C front",
+        "Announce Gate D availability over PA system",
+        "Request 4 additional volunteers from unassigned pool"
+      ]
+    }
+  ],
+  "resolved_incidents": [
+    {
+      "id": "INC-2026-0045",
+      "type": "LOST_PERSON",
+      "severity": "LOW",
+      "zone": "ZONE_CONCOURSE",
+      "description": "Lost child, age 7. United with parent after 12 minutes.",
+      "reported_at": "2026-06-15T19:10:00-05:00",
+      "resolved_at": "2026-06-15T19:22:00-05:00",
+      "status": "RESOLVED"
+    },
+    {
+      "id": "INC-2026-0046",
+      "type": "MEDICAL",
+      "severity": "LOW",
+      "zone": "ZONE_EAST",
+      "description": "Heat exhaustion. Fan treated with water and shade. Recovered.",
+      "reported_at": "2026-06-15T19:15:00-05:00",
+      "resolved_at": "2026-06-15T19:30:00-05:00",
+      "status": "RESOLVED"
+    }
+  ],
+  "weather": {
+    "condition": "CLEAR",
+    "temperature_celsius": 28.5,
+    "humidity_percent": 62,
+    "heat_index_celsius": 31.2,
+    "wind_kph": 12,
+    "thunderstorm_risk": "LOW",
+    "uv_index": 3,
+    "advisory": "Heat index elevated. Encourage fans to hydrate. Monitor outdoor queues."
+  },
+  "incident_stats": {
+    "total_today": 5,
+    "active": 3,
+    "resolved": 2,
+    "by_type": {
+      "MEDICAL": 2,
+      "SECURITY": 1,
+      "CROWD_SURGE": 1,
+      "LOST_PERSON": 1
+    }
+  }
+}

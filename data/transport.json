@@ -1,0 +1,70 @@
+{
+  "timestamp": "2026-06-15T19:45:00-05:00",
+  "metro": {
+    "status": "OPERATIONAL",
+    "line": "Trinity Metro TEXRail",
+    "nearest_station": "AT&T Stadium Station",
+    "distance_to_gate_minutes": 8,
+    "trains": [
+      { "direction": "Inbound", "next_arrival_minutes": 4, "capacity_percent": 78, "status": "ON_TIME" },
+      { "direction": "Inbound", "next_arrival_minutes": 18, "capacity_percent": 55, "status": "ON_TIME" },
+      { "direction": "Outbound", "next_arrival_minutes": 35, "capacity_percent": 10, "status": "ON_TIME" }
+    ],
+    "crowd_advisory": "Moderate congestion at platform. Recommend using south platform exit."
+  },
+  "buses": [
+    {
+      "route": "FIFA Shuttle Route 1",
+      "origin": "Dallas Convention Center",
+      "status": "AVAILABLE",
+      "next_departure_minutes": 6,
+      "capacity_remaining": 42,
+      "estimated_arrival_minutes": 25
+    },
+    {
+      "route": "FIFA Shuttle Route 2",
+      "origin": "Fort Worth TCC",
+      "status": "DELAYED",
+      "next_departure_minutes": 22,
+      "capacity_remaining": 18,
+      "estimated_arrival_minutes": 45,
+      "delay_reason": "Traffic congestion on I-30"
+    },
+    {
+      "route": "FIFA Shuttle Route 3",
+      "origin": "DFW Airport Terminal D",
+      "status": "AVAILABLE",
+      "next_departure_minutes": 12,
+      "capacity_remaining": 55,
+      "estimated_arrival_minutes": 35
+    }
+  ],
+  "parking": {
+    "status": "BUSY",
+    "lots": [
+      { "id": "LOT_A", "label": "Lot A (North)", "capacity": 3000, "occupied": 2910, "percent_full": 97.0, "status": "FULL" },
+      { "id": "LOT_B", "label": "Lot B (South)", "capacity": 3000, "occupied": 2650, "percent_full": 88.3, "status": "NEAR_FULL" },
+      { "id": "LOT_C", "label": "Lot C (East)", "capacity": 2500, "occupied": 1875, "percent_full": 75.0, "status": "AVAILABLE" },
+      { "id": "LOT_D", "label": "Lot D (Remote)", "capacity": 5000, "occupied": 2100, "percent_full": 42.0, "status": "AVAILABLE" }
+    ],
+    "recommended_lot": "LOT_C",
+    "overflow_shuttle_active": true,
+    "overflow_shuttle_wait_minutes": 10
+  },
+  "rideshare": {
+    "uber_eta_minutes": 18,
+    "lyft_eta_minutes": 22,
+    "designated_dropoff_zone": "Gate C South Apron",
+    "congestion_surcharge_active": true,
+    "advisory": "Rideshare pickup zone at Gate G is currently congested. Expect 15-20 min wait post-match."
+  },
+  "road_closures": [
+    { "road": "Collins Street South", "reason": "FIFA Match Day Closure", "alternative": "Division Street via TX-360" },
+    { "road": "AT&T Way East Lane", "reason": "Emergency Vehicle Lane", "alternative": "Use stadium perimeter road" }
+  ],
+  "volunteer_transport": {
+    "staff_shuttle_active": true,
+    "staff_shuttle_route": "Command Center → Staff Lot → Gates",
+    "next_shuttle_minutes": 8
+  }
+}

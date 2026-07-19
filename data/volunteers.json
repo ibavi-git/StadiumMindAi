@@ -1,0 +1,130 @@
+{
+  "timestamp": "2026-06-15T19:45:00-05:00",
+  "total_volunteers": 116,
+  "active_volunteers": 104,
+  "on_break": 8,
+  "unassigned": 4,
+  "volunteers": [
+    {
+      "id": "VOL-001", "name": "Marcus Johnson", "role": "Crowd Control",
+      "zone": "ZONE_NORTH", "gate": "Gate A", "status": "ACTIVE",
+      "languages": ["English", "Spanish"], "shift_start": "17:00", "shift_end": "23:00",
+      "certifications": ["First Aid", "Crowd Management"], "contact": "Radio Ch.2",
+      "current_task": "Gate queue management", "experience_years": 3
+    },
+    {
+      "id": "VOL-002", "name": "Sofia Reyes", "role": "Information & Assistance",
+      "zone": "ZONE_SOUTH", "gate": "Gate C", "status": "ACTIVE",
+      "languages": ["English", "Spanish", "Portuguese"], "shift_start": "17:00", "shift_end": "23:00",
+      "certifications": ["Customer Service"], "contact": "Radio Ch.3",
+      "current_task": "Fan assistance at Gate C", "experience_years": 1
+    },
+    {
+      "id": "VOL-003", "name": "Jean-Pierre Moreau", "role": "Crowd Control",
+      "zone": "ZONE_SOUTH", "gate": "Gate D", "status": "ACTIVE",
+      "languages": ["English", "French"], "shift_start": "17:00", "shift_end": "23:00",
+      "certifications": ["Crowd Management"], "contact": "Radio Ch.3",
+      "current_task": "Gate D crowd control", "experience_years": 2
+    },
+    {
+      "id": "VOL-004", "name": "Aisha Al-Rashid", "role": "Medical Support",
+      "zone": "ZONE_NORTH", "gate": null, "status": "ACTIVE",
+      "languages": ["English", "Arabic"], "shift_start": "17:00", "shift_end": "23:00",
+      "certifications": ["First Aid", "CPR", "Emergency Response"], "contact": "Radio Ch.1",
+      "current_task": "Roving medical check – North Stand", "experience_years": 4
+    },
+    {
+      "id": "VOL-005", "name": "Tyler Brooks", "role": "Accessibility Assistant",
+      "zone": "ZONE_WEST", "gate": "Gate G", "status": "ACTIVE",
+      "languages": ["English"], "shift_start": "16:00", "shift_end": "22:00",
+      "certifications": ["Accessibility Services", "First Aid"], "contact": "Radio Ch.4",
+      "current_task": "Wheelchair assistance at Gate G", "experience_years": 2
+    },
+    {
+      "id": "VOL-006", "name": "Priya Nair", "role": "Crowd Control",
+      "zone": "ZONE_EAST", "gate": "Gate E", "status": "ACTIVE",
+      "languages": ["English"], "shift_start": "17:00", "shift_end": "23:00",
+      "certifications": ["Crowd Management"], "contact": "Radio Ch.2",
+      "current_task": "Gate E ticket verification", "experience_years": 1
+    },
+    {
+      "id": "VOL-007", "name": "Carlos Mendoza", "role": "Emergency Response",
+      "zone": "ZONE_CONCOURSE", "gate": null, "status": "ACTIVE",
+      "languages": ["English", "Spanish"], "shift_start": "17:00", "shift_end": "23:00",
+      "certifications": ["EMT", "Fire Safety", "Crowd Management"], "contact": "Radio Ch.1",
+      "current_task": "Concourse patrol", "experience_years": 5
+    },
+    {
+      "id": "VOL-008", "name": "Hannah Schmidt", "role": "Information & Assistance",
+      "zone": "ZONE_WEST", "gate": null, "status": "ON_BREAK",
+      "languages": ["English", "French", "Spanish"], "shift_start": "17:00", "shift_end": "23:00",
+      "certifications": ["Customer Service"], "contact": "Radio Ch.4",
+      "current_task": "Break – returns 19:55", "experience_years": 1
+    },
+    {
+      "id": "VOL-009", "name": "David Kim", "role": "Crowd Control",
+      "zone": "ZONE_NORTH", "gate": "Gate B", "status": "ACTIVE",
+      "languages": ["English"], "shift_start": "17:00", "shift_end": "23:00",
+      "certifications": ["Crowd Management"], "contact": "Radio Ch.2",
+      "current_task": "Gate B crowd flow management", "experience_years": 2
+    },
+    {
+      "id": "VOL-010", "name": "Fatima Hassan", "role": "Information & Assistance",
+      "zone": "ZONE_CONCOURSE", "gate": null, "status": "ACTIVE",
+      "languages": ["English", "Arabic", "French"], "shift_start": "17:00", "shift_end": "23:00",
+      "certifications": ["Customer Service", "First Aid"], "contact": "Radio Ch.3",
+      "current_task": "Information desk – Main Concourse", "experience_years": 3
+    },
+    {
+      "id": "VOL-011", "name": "Lucas Ferreira", "role": "Crowd Control",
+      "zone": "ZONE_SOUTH", "gate": "Gate C", "status": "ACTIVE",
+      "languages": ["English", "Portuguese", "Spanish"], "shift_start": "17:00", "shift_end": "23:00",
+      "certifications": ["Crowd Management", "First Aid"], "contact": "Radio Ch.3",
+      "current_task": "South stand upper level crowd flow", "experience_years": 2
+    },
+    {
+      "id": "VOL-012", "name": "Rachel Thompson", "role": "Medical Support",
+      "zone": "ZONE_SOUTH", "gate": null, "status": "ACTIVE",
+      "languages": ["English"], "shift_start": "17:00", "shift_end": "23:00",
+      "certifications": ["Nurse", "CPR", "Emergency Response"], "contact": "Radio Ch.1",
+      "current_task": "Medical Post S-1 standby", "experience_years": 6
+    },
+    {
+      "id": "VOL-013", "name": "Omar Khalil", "role": "Security Liaison",
+      "zone": "ZONE_EAST", "gate": "Gate F", "status": "ACTIVE",
+      "languages": ["English", "Arabic"], "shift_start": "16:00", "shift_end": "22:00",
+      "certifications": ["Security Management", "Crowd Management"], "contact": "Radio Ch.5",
+      "current_task": "VIP Gate F credential checking", "experience_years": 4
+    },
+    {
+      "id": "VOL-014", "name": "Amara Diallo", "role": "Crowd Control",
+      "zone": "ZONE_CONCOURSE", "gate": null, "status": "UNASSIGNED",
+      "languages": ["English", "French"], "shift_start": "18:00", "shift_end": "00:00",
+      "certifications": ["Crowd Management"], "contact": "Radio Ch.2",
+      "current_task": null, "experience_years": 1
+    },
+    {
+      "id": "VOL-015", "name": "Jake Morrison", "role": "Crowd Control",
+      "zone": "ZONE_CONCOURSE", "gate": null, "status": "UNASSIGNED",
+      "languages": ["English"], "shift_start": "18:00", "shift_end": "00:00",
+      "certifications": ["Crowd Management", "First Aid"], "contact": "Radio Ch.2",
+      "current_task": null, "experience_years": 2
+    }
+  ],
+  "role_summary": {
+    "Crowd Control": 52,
+    "Information & Assistance": 24,
+    "Medical Support": 14,
+    "Emergency Response": 10,
+    "Accessibility Assistant": 8,
+    "Security Liaison": 8
+  },
+  "zone_coverage": {
+    "ZONE_NORTH": { "assigned": 18, "recommended": 25, "gap": 7 },
+    "ZONE_SOUTH": { "assigned": 20, "recommended": 25, "gap": 5 },
+    "ZONE_EAST": { "assigned": 14, "recommended": 20, "gap": 6 },
+    "ZONE_WEST": { "assigned": 12, "recommended": 20, "gap": 8 },
+    "ZONE_FIELD_LEVEL": { "assigned": 30, "recommended": 35, "gap": 5 },
+    "ZONE_CONCOURSE": { "assigned": 22, "recommended": 30, "gap": 8 }
+  }
+}

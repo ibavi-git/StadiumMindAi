@@ -1,0 +1,122 @@
+{
+  "stadium": {
+    "id": "ATT_STADIUM_ARLINGTON",
+    "name": "AT&T Stadium",
+    "city": "Arlington",
+    "state": "Texas",
+    "country": "USA",
+    "total_capacity": 80000,
+    "world_cup_allocated_capacity": 92000,
+    "event": "FIFA World Cup 2026",
+    "surface": "Bermuda Grass (Retractable Roof)"
+  },
+  "zones": [
+    {
+      "id": "ZONE_NORTH",
+      "label": "North Stand",
+      "section": "N",
+      "seating_capacity": 22000,
+      "standing_area": false,
+      "accessible_seats": 440,
+      "volunteer_count": 18,
+      "max_volunteer_recommended": 25,
+      "gates": ["Gate A", "Gate B"],
+      "amenities": ["Concession Stand NC-1", "Medical Post N-1", "Restroom Block N"],
+      "coordinates": { "x": 50, "y": 10 }
+    },
+    {
+      "id": "ZONE_SOUTH",
+      "label": "South Stand",
+      "section": "S",
+      "seating_capacity": 22000,
+      "standing_area": false,
+      "accessible_seats": 440,
+      "volunteer_count": 20,
+      "max_volunteer_recommended": 25,
+      "gates": ["Gate C", "Gate D"],
+      "amenities": ["Concession Stand SC-1", "Medical Post S-1", "Restroom Block S", "Fan Zone"],
+      "coordinates": { "x": 50, "y": 90 }
+    },
+    {
+      "id": "ZONE_EAST",
+      "label": "East Stand",
+      "section": "E",
+      "seating_capacity": 18000,
+      "standing_area": false,
+      "accessible_seats": 360,
+      "volunteer_count": 14,
+      "max_volunteer_recommended": 20,
+      "gates": ["Gate E", "Gate F"],
+      "amenities": ["Concession Stand EC-1", "Restroom Block E", "VIP Lounge E"],
+      "coordinates": { "x": 90, "y": 50 }
+    },
+    {
+      "id": "ZONE_WEST",
+      "label": "West Stand",
+      "section": "W",
+      "seating_capacity": 18000,
+      "standing_area": false,
+      "accessible_seats": 360,
+      "volunteer_count": 12,
+      "max_volunteer_recommended": 20,
+      "gates": ["Gate G", "Gate H"],
+      "amenities": ["Concession Stand WC-1", "Restroom Block W", "Media Center", "VIP Lounge W"],
+      "coordinates": { "x": 10, "y": 50 }
+    },
+    {
+      "id": "ZONE_FIELD_LEVEL",
+      "label": "Field Level",
+      "section": "FL",
+      "seating_capacity": 0,
+      "standing_area": true,
+      "accessible_seats": 0,
+      "volunteer_count": 30,
+      "max_volunteer_recommended": 35,
+      "gates": ["Pitch Gate P1", "Pitch Gate P2"],
+      "amenities": ["Press Box", "Team Dugouts", "Medical Center FL"],
+      "coordinates": { "x": 50, "y": 50 }
+    },
+    {
+      "id": "ZONE_CONCOURSE",
+      "label": "Main Concourse",
+      "section": "MC",
+      "seating_capacity": 0,
+      "standing_area": true,
+      "accessible_seats": 0,
+      "volunteer_count": 22,
+      "max_volunteer_recommended": 30,
+      "gates": ["Main Entrance Gate", "Gate A", "Gate B", "Gate C", "Gate D"],
+      "amenities": ["Information Desk", "Merchandise Store", "First Aid"],
+      "coordinates": { "x": 50, "y": 50 }
+    }
+  ],
+  "gates": [
+    { "id": "GATE_A", "label": "Gate A", "zone": "ZONE_NORTH", "type": "General", "turnstiles": 12, "accessible": true },
+    { "id": "GATE_B", "label": "Gate B", "zone": "ZONE_NORTH", "type": "General", "turnstiles": 12, "accessible": true },
+    { "id": "GATE_C", "label": "Gate C", "zone": "ZONE_SOUTH", "type": "General", "turnstiles": 14, "accessible": true },
+    { "id": "GATE_D", "label": "Gate D", "zone": "ZONE_SOUTH", "type": "General", "turnstiles": 14, "accessible": true },
+    { "id": "GATE_E", "label": "Gate E", "zone": "ZONE_EAST", "type": "General", "turnstiles": 10, "accessible": true },
+    { "id": "GATE_F", "label": "Gate F", "zone": "ZONE_EAST", "type": "VIP", "turnstiles": 6, "accessible": true },
+    { "id": "GATE_G", "label": "Gate G", "zone": "ZONE_WEST", "type": "General", "turnstiles": 10, "accessible": true },
+    { "id": "GATE_H", "label": "Gate H", "zone": "ZONE_WEST", "type": "Media", "turnstiles": 4, "accessible": true }
+  ],
+  "emergency_exits": [
+    { "id": "EXIT_N1", "label": "North Emergency Exit 1", "zone": "ZONE_NORTH", "capacity_per_minute": 800 },
+    { "id": "EXIT_N2", "label": "North Emergency Exit 2", "zone": "ZONE_NORTH", "capacity_per_minute": 800 },
+    { "id": "EXIT_S1", "label": "South Emergency Exit 1", "zone": "ZONE_SOUTH", "capacity_per_minute": 800 },
+    { "id": "EXIT_S2", "label": "South Emergency Exit 2", "zone": "ZONE_SOUTH", "capacity_per_minute": 800 },
+    { "id": "EXIT_E1", "label": "East Emergency Exit 1", "zone": "ZONE_EAST", "capacity_per_minute": 600 },
+    { "id": "EXIT_W1", "label": "West Emergency Exit 1", "zone": "ZONE_WEST", "capacity_per_minute": 600 }
+  ],
+  "medical_posts": [
+    { "id": "MEDICAL_N1", "label": "Medical Post North", "zone": "ZONE_NORTH", "staff": 4, "defibrillator": true, "stretchers": 2 },
+    { "id": "MEDICAL_S1", "label": "Medical Post South", "zone": "ZONE_SOUTH", "staff": 4, "defibrillator": true, "stretchers": 2 },
+    { "id": "MEDICAL_FL", "label": "Medical Center Field Level", "zone": "ZONE_FIELD_LEVEL", "staff": 8, "defibrillator": true, "stretchers": 4 }
+  ],
+  "concession_stands": [
+    { "id": "CS_NC1", "label": "North Concession NC-1", "zone": "ZONE_NORTH", "open": true, "queue_length": 22 },
+    { "id": "CS_SC1", "label": "South Concession SC-1", "zone": "ZONE_SOUTH", "open": true, "queue_length": 45 },
+    { "id": "CS_EC1", "label": "East Concession EC-1", "zone": "ZONE_EAST", "open": true, "queue_length": 8 },
+    { "id": "CS_WC1", "label": "West Concession WC-1", "zone": "ZONE_WEST", "open": false, "queue_length": 0 }
+  ]
+}

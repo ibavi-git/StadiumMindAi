@@ -1,0 +1,72 @@
+{
+  "match_id": "WC2026-QF-03",
+  "event": "FIFA World Cup 2026 – Quarter Final 3",
+  "date": "2026-06-15",
+  "kickoff_time": "20:00",
+  "kickoff_time_local": "2026-06-15T20:00:00-05:00",
+  "venue": "AT&T Stadium, Arlington, Texas, USA",
+  "home_team": {
+    "name": "Argentina",
+    "code": "ARG",
+    "fifa_rank": 1,
+    "primary_color": "#74ACDF",
+    "secondary_color": "#FFFFFF"
+  },
+  "away_team": {
+    "name": "France",
+    "code": "FRA",
+    "fifa_rank": 2,
+    "primary_color": "#003189",
+    "secondary_color": "#FFFFFF"
+  },
+  "current_score": {
+    "home": 0,
+    "away": 0,
+    "period": "PRE_MATCH"
+  },
+  "attendance": {
+    "expected": 92000,
+    "checked_in": 74200,
+    "vip": 3200,
+    "media": 850,
+    "volunteers": 116
+  },
+  "broadcast": {
+    "networks": ["Fox Sports", "Telemundo", "beIN Sports", "TF1"],
+    "languages": ["English", "Spanish", "French", "Arabic", "Portuguese"]
+  },
+  "match_officials": {
+    "referee": "Szymon Marciniak (Poland)",
+    "assistant_referee_1": "Paweł Sokolnicki (Poland)",
+    "assistant_referee_2": "Tomasz Listkiewicz (Poland)",
+    "fourth_official": "Slavko Vinčić (Slovenia)",
+    "var_official": "Massimiliano Irrati (Italy)"
+  },
+  "event_timeline": [
+    { "time": "16:00", "event": "Volunteer briefing", "completed": true },
+    { "time": "17:00", "event": "Gates open – General Admission", "completed": true },
+    { "time": "18:00", "event": "VIP gates open", "completed": true },
+    { "time": "19:00", "event": "Fan activation zones open", "completed": true },
+    { "time": "19:30", "event": "Teams warm up on pitch", "completed": true },
+    { "time": "19:45", "event": "Pre-match ceremony begins", "completed": false },
+    { "time": "20:00", "event": "Kickoff", "completed": false },
+    { "time": "21:00", "event": "Half time", "completed": false },
+    { "time": "21:15", "event": "Second half kickoff", "completed": false },
+    { "time": "22:15", "event": "Full time (estimated)", "completed": false },
+    { "time": "22:30", "event": "Post-match crowd egress", "completed": false },
+    { "time": "00:00", "event": "Venue clear target", "completed": false }
+  ],
+  "special_instructions": [
+    "This is a quarter-final. Expect heightened fan passion. Monitor South Stand Argentina fan section closely.",
+    "Argentine and French fan sections are segregated – North (ARG) and South (FRA). Maintain separation in concourse.",
+    "No banners exceeding 2m×1m permitted. Confiscate at gate.",
+    "Enhanced security perimeter active from 18:00. Coordinate with FIFA Security Chief on Channel 5."
+  ],
+  "emergency_contact": {
+    "command_center": "Radio Channel 1",
+    "medical_lead": "Radio Channel 1 – Dr. Sarah Collins",
+    "security_chief": "Radio Channel 5 – Agent Torres",
+    "transport_coordinator": "Radio Channel 6 – Coordinator Patel",
+    "volunteer_coordinator": "Radio Channel 2 – Manager White"
+  }
+}
