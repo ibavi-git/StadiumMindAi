@@ -4,6 +4,8 @@ import LandingPage from './pages/LandingPage'
 import VolunteerPage from './pages/VolunteerPage'
 import OrganizerPage from './pages/OrganizerPage'
 import EmergencyPage from './pages/EmergencyPage'
+import { ToastProvider } from './context/ToastContext'
+
 
 function App() {
   return (
