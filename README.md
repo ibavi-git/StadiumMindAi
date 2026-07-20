@@ -164,12 +164,8 @@ pytest tests/ -v
 
 ## 📸 Screenshots
 
-*(Replace placeholders with actual image paths)*
 - ![Volunteer Dashboard](docs/images/placeholder_volunteer.png) *Volunteer Q&A Interface*
 - ![Organizer View](docs/images/placeholder_organizer.png) *Live Crowd Heatmap & Insights*
-
-## 🌐 Deployment
-Ready for production? See our [Deployment Guide](docs/Deployment.md) for Docker, Google Cloud Run, and Vercel instructions.
 
 ## 🔭 Future Scope
 
